@@ -1,6 +1,8 @@
 package com.sgtesting.actitime.tests;
 
-public class Customers extends Initialize{
+import org.openqa.selenium.WebDriver;
+
+public class Customers {
 	
 	/**
 	 * Created By:
@@ -13,7 +15,7 @@ public class Customers extends Initialize{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void createCustomer()
+	public static void createCustomer(WebDriver oBrowser)
 	{
 		try
 		{
@@ -35,7 +37,7 @@ public class Customers extends Initialize{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void modifyCustomer()
+	public static void modifyCustomer(WebDriver oBrowser)
 	{
 		try
 		{
@@ -57,7 +59,7 @@ public class Customers extends Initialize{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void deleteCustomer()
+	public static void deleteCustomer(WebDriver oBrowser)
 	{
 		try
 		{
