@@ -1,6 +1,8 @@
 package com.sgtesting.actitime.tests;
 
-public class Projects extends Initialize{
+import org.openqa.selenium.WebDriver;
+
+public class Projects {
 	
 	/**
 	 * Created By:
@@ -13,7 +15,7 @@ public class Projects extends Initialize{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void createProject()
+	public static void createProject(WebDriver oBrowser)
 	{
 		try
 		{
@@ -35,7 +37,7 @@ public class Projects extends Initialize{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void modifyProject()
+	public static void modifyProject(WebDriver oBrowser)
 	{
 		try
 		{
@@ -57,7 +59,7 @@ public class Projects extends Initialize{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void deleteProject()
+	public static void deleteProject(WebDriver oBrowser)
 	{
 		try
 		{

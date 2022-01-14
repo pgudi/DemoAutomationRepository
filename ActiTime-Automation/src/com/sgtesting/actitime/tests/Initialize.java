@@ -16,7 +16,7 @@ public class Initialize {
 	 * Purpose:
 	 * Description:
 	 */
-	public static void launchBrowser()
+	public static WebDriver launchBrowser()
 	{
 		String path=null;
 		try
@@ -30,6 +30,7 @@ public class Initialize {
 		{
 			e.printStackTrace();		
 		}
+		return oBrowser;
 	}
 	
 	/**
@@ -43,7 +44,7 @@ public class Initialize {
 	 * Purpose:
 	 * Description:
 	 */
-	public static void navigate()
+	public static void navigate(WebDriver oBrowser)
 	{
 		try
 		{
@@ -66,7 +67,7 @@ public class Initialize {
 	 * Purpose:
 	 * Description:
 	 */
-	public static void closeApplication()
+	public static void closeApplication(WebDriver oBrowser)
 	{
 		try
 		{

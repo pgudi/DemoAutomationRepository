@@ -1,6 +1,8 @@
 package com.sgtesting.actitime.tests;
 
-public class Tasks extends Initialize{
+import org.openqa.selenium.WebDriver;
+
+public class Tasks {
 	
 	/**
 	 * Created By:
@@ -13,7 +15,7 @@ public class Tasks extends Initialize{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void createTask()
+	public static void createTask(WebDriver oBrowser)
 	{
 		try
 		{
@@ -35,7 +37,7 @@ public class Tasks extends Initialize{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void modifyTask()
+	public static void modifyTask(WebDriver oBrowser)
 	{
 		try
 		{
@@ -57,7 +59,7 @@ public class Tasks extends Initialize{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void deleteTask()
+	public static void deleteTask(WebDriver oBrowser)
 	{
 		try
 		{

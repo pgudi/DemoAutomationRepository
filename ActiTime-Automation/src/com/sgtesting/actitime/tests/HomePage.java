@@ -3,7 +3,7 @@ package com.sgtesting.actitime.tests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class HomePage extends Initialize{
+public class HomePage {
 	
 	/**
 	 * Created By:
@@ -16,7 +16,7 @@ public class HomePage extends Initialize{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void minimizeFlyOutWindow()
+	public static void minimizeFlyOutWindow(WebDriver oBrowser)
 	{
 		try
 		{
