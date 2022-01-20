@@ -1,72 +1,67 @@
 package com.sgtesting.actitime.tests;
 
-import org.openqa.selenium.WebDriver;
-
 public class Projects {
 	
 	/**
 	 * Created By:
 	 * Created Date:
-	 * Test case ID:
 	 * Reviewed By:
-	 * Reviewed Date:
-	 * Parameters:
-	 * Return Value:
+	 * Test case ID:
+	 * parameters:
+	 * return type:
 	 * Purpose:
 	 * Description:
 	 */
-	public static void createProject(WebDriver oBrowser)
+	public static void createProject()
 	{
 		try
 		{
-
+			
 		}catch(Exception e)
 		{
-			e.printStackTrace();		
+			e.printStackTrace();
 		}
 	}
-
+	
 	/**
 	 * Created By:
 	 * Created Date:
-	 * Test case ID:
 	 * Reviewed By:
-	 * Reviewed Date:
-	 * Parameters:
-	 * Return Value:
+	 * Test case ID:
+	 * parameters:
+	 * return type:
 	 * Purpose:
 	 * Description:
 	 */
-	public static void modifyProject(WebDriver oBrowser)
+	public static void modifyProject()
 	{
 		try
 		{
-
+			
 		}catch(Exception e)
 		{
-			e.printStackTrace();		
+			e.printStackTrace();
 		}
 	}
-
+	
 	/**
 	 * Created By:
 	 * Created Date:
-	 * Test case ID:
 	 * Reviewed By:
-	 * Reviewed Date:
-	 * Parameters:
-	 * Return Value:
+	 * Test case ID:
+	 * parameters:
+	 * return type:
 	 * Purpose:
 	 * Description:
 	 */
-	public static void deleteProject(WebDriver oBrowser)
+	public static void deleteProject()
 	{
 		try
 		{
-
+			
 		}catch(Exception e)
 		{
-			e.printStackTrace();		
+			e.printStackTrace();
 		}
 	}
 

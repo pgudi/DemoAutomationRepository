@@ -3,29 +3,32 @@ package com.sgtesting.actitime.tests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class HomePage {
+import com.sgtesting.actitime.driverscript.DriverScript;
+
+public class HomePage extends DriverScript{
 	
 	/**
 	 * Created By:
-	 * Created Date:
-	 * Test case ID:
+	 * Modified By:
 	 * Reviewed By:
-	 * Reviewed Date:
-	 * Parameters:
-	 * Return Value:
+	 * Test Case ID:
+	 * @Parameters :
+	 * @return :
 	 * Purpose:
 	 * Description:
 	 */
-	public static void minimizeFlyOutWindow(WebDriver oBrowser)
+	public static String minimizeFlyOutWindow(WebDriver oBrowser)
 	{
+		String scriptStatus="Fail";
 		try
 		{
 			oBrowser.findElement(By.id("gettingStartedShortcutsPanelId")).click();
-			Thread.sleep(1000);
+			scriptStatus="Pass";
+			Thread.sleep(2000);
 		}catch(Exception e)
 		{
-			e.printStackTrace();		
+			e.printStackTrace();
 		}
+		return scriptStatus;
 	}
-
 }

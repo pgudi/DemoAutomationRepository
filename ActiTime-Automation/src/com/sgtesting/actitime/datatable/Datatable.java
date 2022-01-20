@@ -1,5 +1,4 @@
 package com.sgtesting.actitime.datatable;
-
 import java.io.FileInputStream;
 import java.util.Calendar;
 import org.apache.poi.ss.usermodel.Cell;
@@ -52,7 +51,7 @@ public class Datatable {
 				e.printStackTrace();
 			}
 		}
-		return rc-1;
+		return rc;
 	}
 	
 	
@@ -285,3 +284,4 @@ public class Datatable {
 		System.out.println(val);
 	}*/
 }
+
