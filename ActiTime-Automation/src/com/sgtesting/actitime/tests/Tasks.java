@@ -1,72 +1,67 @@
 package com.sgtesting.actitime.tests;
 
-import org.openqa.selenium.WebDriver;
-
 public class Tasks {
 	
 	/**
 	 * Created By:
 	 * Created Date:
-	 * Test case ID:
 	 * Reviewed By:
-	 * Reviewed Date:
-	 * Parameters:
-	 * Return Value:
+	 * Test case ID:
+	 * parameters:
+	 * return type:
 	 * Purpose:
 	 * Description:
 	 */
-	public static void createTask(WebDriver oBrowser)
+	public static void createTask()
 	{
 		try
 		{
-
+			
 		}catch(Exception e)
 		{
-			e.printStackTrace();		
+			e.printStackTrace();
 		}
 	}
-
+	
 	/**
 	 * Created By:
 	 * Created Date:
-	 * Test case ID:
 	 * Reviewed By:
-	 * Reviewed Date:
-	 * Parameters:
-	 * Return Value:
+	 * Test case ID:
+	 * parameters:
+	 * return type:
 	 * Purpose:
 	 * Description:
 	 */
-	public static void modifyTask(WebDriver oBrowser)
+	public static void modifyTask()
 	{
 		try
 		{
-
+			
 		}catch(Exception e)
 		{
-			e.printStackTrace();		
+			e.printStackTrace();
 		}
 	}
-
+	
 	/**
 	 * Created By:
 	 * Created Date:
-	 * Test case ID:
 	 * Reviewed By:
-	 * Reviewed Date:
-	 * Parameters:
-	 * Return Value:
+	 * Test case ID:
+	 * parameters:
+	 * return type:
 	 * Purpose:
 	 * Description:
 	 */
-	public static void deleteTask(WebDriver oBrowser)
+	public static void deleteTask()
 	{
 		try
 		{
-
+			
 		}catch(Exception e)
 		{
-			e.printStackTrace();		
+			e.printStackTrace();
 		}
 	}
 

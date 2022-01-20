@@ -1,72 +1,67 @@
 package com.sgtesting.actitime.tests;
 
-import org.openqa.selenium.WebDriver;
-
 public class Customers {
 	
 	/**
 	 * Created By:
 	 * Created Date:
-	 * Test case ID:
 	 * Reviewed By:
-	 * Reviewed Date:
-	 * Parameters:
-	 * Return Value:
+	 * Test case ID:
+	 * parameters:
+	 * return type:
 	 * Purpose:
 	 * Description:
 	 */
-	public static void createCustomer(WebDriver oBrowser)
+	public static void createCustomer()
 	{
 		try
 		{
-
+			
 		}catch(Exception e)
 		{
-			e.printStackTrace();		
+			e.printStackTrace();
 		}
 	}
-
+	
 	/**
 	 * Created By:
 	 * Created Date:
-	 * Test case ID:
 	 * Reviewed By:
-	 * Reviewed Date:
-	 * Parameters:
-	 * Return Value:
+	 * Test case ID:
+	 * parameters:
+	 * return type:
 	 * Purpose:
 	 * Description:
 	 */
-	public static void modifyCustomer(WebDriver oBrowser)
+	public static void modifyCustomer()
 	{
 		try
 		{
-
+			
 		}catch(Exception e)
 		{
-			e.printStackTrace();		
+			e.printStackTrace();
 		}
 	}
-
+	
 	/**
 	 * Created By:
 	 * Created Date:
-	 * Test case ID:
 	 * Reviewed By:
-	 * Reviewed Date:
-	 * Parameters:
-	 * Return Value:
+	 * Test case ID:
+	 * parameters:
+	 * return type:
 	 * Purpose:
 	 * Description:
 	 */
-	public static void deleteCustomer(WebDriver oBrowser)
+	public static void deleteCustomer()
 	{
 		try
 		{
-
+			
 		}catch(Exception e)
 		{
-			e.printStackTrace();		
+			e.printStackTrace();
 		}
 	}
 
